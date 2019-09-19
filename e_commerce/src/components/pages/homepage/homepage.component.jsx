@@ -1,7 +1,7 @@
 import React from 'react';
 import Directory from '../../directory/directory.component'
 import './homepage.scss'
-const HomePage = () => (
+const HomePage = ({history}) => (
   <div className = "homepage">
     <Directory/>
   </div>
